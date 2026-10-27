@@ -57,4 +57,3 @@ $ curl planetmongo.default.svc.cluster.local
 
 planetmongo 10.90.11.42
 ```
-
