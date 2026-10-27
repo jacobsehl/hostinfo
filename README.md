@@ -1,6 +1,6 @@
 # hostinfo
 
-Simple Go microservice which returns a host info string (name and IP of the host). Accessible via curl, wget, etc. 
+Simple Go micro service which returns a host info string (name and IP of the host). Accessible via curl, wget, etc. 
 Listens on port 9898 by default, if an `int` is passed on the command line, that port is used instead. Particularly 
 useful when demonstrating K8s service routing operation (deploy several replicas of this, create a service for the 
 set, then curl the service sequentially to see various hosts respond). The hostinfo service logs inbound requests
